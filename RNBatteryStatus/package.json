@@ -1,0 +1,31 @@
+{
+  "name": "react-native-battery-status-ios",
+  "version": "0.1.0",
+  "description": "A react-native interface for getting the battery status on an ios device.",
+  "main": "index.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "battery",
+    "battery status",
+    "battery level"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com:rhaker/react-native-battery-status-ios.git"
+  },
+  "author": "rhaker <email@example.com> (http://github.com/rhaker)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhaker/react-native-battery-status-ios/issues"
+  },
+  "homepage": "https://github.com/rhaker/react-native-battery-status-ios",
+  "dependencies": {
+    "react-native": "^0.10.0"
+  },
+  "devDependencies": {}
+}
