@@ -1,6 +1,6 @@
 # react-native-battery-status-ios
 
-This is a wrapper for react-native that gives the battery status of a device. The options are get level (returns percent) or turn off battery monitoring. This is for ios.
+This is a wrapper for react-native that gives the battery status of a device. The options are get level (returns percent) or turn off battery monitoring. This is for ios only.
 
 # Add it to your project
 
