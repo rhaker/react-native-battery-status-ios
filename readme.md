@@ -22,6 +22,7 @@ If you get stuck, take a look at Brent Vatne's blog. His blog is my go to refere
 
 # Api Setup
 
+```javascript
 var React = require('react-native');
 
 var { NativeModules } = React;
@@ -29,22 +30,17 @@ var { NativeModules } = React;
 var { RNBatteryStatus } = NativeModules;
 
 RNBatteryStatus.batteryStatus(
-
     "getLevel", // getLevel, turnOff
 
     function errorCallback(results) {
-
         console.log('JS Error: ' + results['errMsg']);
-
     },
 
     function successCallback(results) {
-
         console.log('JS Success: ' + results['successMsg']);
-
     }
-
 );
+```
 
 # Additional Notes
 
